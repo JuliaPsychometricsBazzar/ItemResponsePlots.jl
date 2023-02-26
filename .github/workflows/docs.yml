@@ -19,10 +19,6 @@ jobs:
       - uses: julia-actions/setup-julia@v1
         with:
           version: 'nightly'
-      - name: Set packages to develop & resolve env
-        run: |
-          julia --project=docs/ -e 'using Pkg;
-                                    Pkg.instantiate()'
       - uses: julia-actions/julia-buildpkg@v1
         with:
           project: 'docs'
