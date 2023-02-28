@@ -6,3 +6,6 @@ version = "0.1.0"
 [deps]
 FittedItemBanks = "3f797b09-34e4-41d7-acf6-3302ae3248a5"
 Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
+
+[compat]
+Makie = "^0.18.0"
